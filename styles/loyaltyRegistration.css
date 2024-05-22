@@ -29,16 +29,31 @@
     font-size: 1.5rem;
 }
 
-.page-main-image {
-    height: 90vh;
+.main-description {
+    width: 96vw;
+    height: 96vh;
+    border: 1px solid var(--transparent-black);
+    border-radius: 10px;
     margin: auto;
-    border-radius: 20px;
-    box-shadow: 0 0 5px;
+    text-justify: inter-word;
+    text-align: center;
+    background-image: url(../images/diaryMainImage.webp);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-top: 2rem;
+
 }
 
-.page-main-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.main-description p {
+    margin-bottom: 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--black);
+    background-color: rgba(248, 248, 248, 0.784);
+    border-radius: 10px;
 }
 
 
@@ -69,13 +84,17 @@
 }
 
 
-.tier-image {
+.tier-image1, .tier-image2,.tier-image3 {
     width: 290px;
     height: 200px;
-    border: 1px solid black;
     margin: auto;
     margin-top: 1rem;
 }
+.memberships img {
+    width: 290px;
+    height: 200px;
+ }
+
 
 .memberships h2 {
     text-align: center;
