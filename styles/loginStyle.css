@@ -3,6 +3,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/loginPage.png);
 }
 
 #mobile-menu {
