@@ -6,14 +6,15 @@
     <title>Discount Mart (Home)</title>
     <!--Styling sheet links-->
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/headerFooter.css" />
-    <link rel="stylesheet" href="./styles/loyaltyRegistration.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/categoryMain.css" />
     <!--javascript links-->
     <!--Icon packs-->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/headerFooter.css" />
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,11 +30,15 @@
         <i class="bx bx-search-alt-2" id="nav-search"></i>
         <img src="./images/logo/dmart.png" alt="" id="logo" />
         <ul id="main-nav">
-          <li class="navigations text-enlarge"><a href="">Home</a></li>
-          <li class="navigations text-enlarge"><a href="">Categories</a></li>
-          <li class="navigations text-enlarge"><a href="">About</a></li>
           <li class="navigations text-enlarge">
-            <a href="">Loyalty Registration</a>
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="navigations text-enlarge"><a href=".#">Categories</a></li>
+          <li class="navigations text-enlarge">
+            <a href="./about.html">About</a>
+          </li>
+          <li class="navigations text-enlarge">
+            <a href="./loyalty-registration.html">Loyalty Registration</a>
           </li>
         </ul>
         <section id="side-nav">
@@ -80,72 +85,10 @@
             <h3>Loyalty <br />Registration</h3>
           </a>
         </section>
+      </section>
       <section class="main-description">
         <p></p>
       </section>
-      <section id="available-tier-heading">
-        <p>Different Memberships</p>
-      </section>
-      <section id="membership-container">
-        <section class="memberships">
-          <section class="tier-image1">
-            <img src="./images/vip.png" alt="" />
-          </section>
-          <h2>Benefits</h2>
-          <ul>
-            <li>Highest Priority Delivery</li>
-            <li>Exclusive Discounts</li>
-            <li>Free Delivery on All Orders</li>
-            <li>Personalized Shopping Recommendations</li>
-            <li>Dedicated Customer Support Line</li>
-          </ul>
-        </section>
-        <section class="memberships">
-          <section class="tier-image2">
-            <img src="./images/gold.png" alt="" />
-          </section>
-          <h2>Benefits</h2>
-          <ul>
-            <li>Priority Delivery Slots</li>
-            <li>Regular Discounts</li>
-            <li>Free Delivery on Orders Over [Amount]</li>
-            <li>Early Access to Sales</li>
-            <li>Birthday Rewards</li>
-          </ul>
-        </section>
-        <section class="memberships">
-          <section class="tier-image3">
-            <img src="./images/titanium.png" alt="" />
-          </section>
-          <h2>Benefits</h2>
-          <ul>
-            <li>Member-Only Prices</li>
-            <li>Points for Every Purchase</li>
-            <li>Monthly Special Offers</li>
-            <li>Birthday Discount</li>
-          </ul>
-        </section>
-      </section>
-      <form>
-        <h2>Join Our Loyalty Program</h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday" required />
-
-        <label for="tier">Choose Loyalty Tier:</label>
-        <select id="tier" name="tier">
-          <option value="titanium">Titanium</option>
-          <option value="gold">Gold</option>
-          <option value="vip">VIP</option>
-        </select>
-
-        <button type="submit">Sign Up</button>
-      </form>
     </main>
     <footer>
       <section id="social-media">
