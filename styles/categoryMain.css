@@ -57,3 +57,36 @@
 @media screen and (max-width: 1020px) {
     #mobile-menu {display: flex;}
 }
+
+
+#category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category1, .category2, .category3 {
+    width: 580px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.category1 {
+    background-image: url(../images/cosm.webp);
+    background-size: cover;
+}
+
+.category2 {
+    background-image: url(../images/vege.webp);
+    background-size: cover;
+}
+
+.category3 {
+    background-image: url(../images/Diary.webp);
+    background-size: cover;
+}

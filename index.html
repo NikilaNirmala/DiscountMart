@@ -22,6 +22,31 @@
       rel="stylesheet"
     />
     <!---->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicon/safari-pinned-tab.svg"
+      color="#4f4f4f"
+    />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
 
   <body>
@@ -33,7 +58,9 @@
           <li class="navigations text-enlarge">
             <a href="./index.html">Home</a>
           </li>
-          <li class="navigations text-enlarge"><a href=".#">Categories</a></li>
+          <li class="navigations text-enlarge">
+            <a href="./categories.html">Categories</a>
+          </li>
           <li class="navigations text-enlarge">
             <a href="./about.html">About</a>
           </li>
@@ -45,17 +72,21 @@
           <section id="number-of-orders">
             <span id="order-counter">0</span>
           </section>
-          <img
-            id="order-button"
-            class="text-enlarge"
-            src="./images/icons/solar--cart-3-bold-duotone.svg"
-            alt=""
-          /><img
-            id="user-button"
-            class="text-enlarge"
-            src="./images/icons/solar--user-bold-duotone.svg"
-            alt=""
-          />
+          <a href="./orderPage.html">
+            <img
+              id="order-button"
+              class="text-enlarge"
+              src="./images/icons/solar--cart-3-bold-duotone.svg"
+              alt=""
+            /> </a
+          ><a href="./login.html">
+            <img
+              id="user-button"
+              class="text-enlarge"
+              src="./images/icons/solar--user-bold-duotone.svg"
+              alt=""
+            />
+          </a>
         </section>
       </nav>
     </header>
@@ -68,7 +99,7 @@
           </a>
         </section>
         <section class="menu-item">
-          <a href="">
+          <a href="./categories.html">
             <i class="bx bx-category font-resize"></i>
             <h3>Categories</h3>
           </a>
@@ -436,9 +467,9 @@
           </ul>
         </article>
         <ol id="available-locations" class="bg-white">
-          <li class="locations">location1</li>
-          <li class="locations">location2</li>
-          <li class="locations">location3</li>
+          <li class="locations">Kandy</li>
+          <li class="locations">Jaffna</li>
+          <li class="locations">Colombo</li>
         </ol>
       </section>
       <section id="copyright">

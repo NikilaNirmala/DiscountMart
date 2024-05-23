@@ -6,7 +6,7 @@
     margin: auto;
     text-justify: inter-word;
     text-align: center;
-    background-image: url(../images/diaryMainImage.webp);
+    background-image: url(../images/aboutmain.webp);
     background-size: cover;
     display: flex;
     align-items: end;
@@ -128,4 +128,8 @@ tfoot {
     border: 2px solid black;
     text-align: center;
     background-color:var(--white);
+}
+
+.bold {
+    font-weight: 700;
 }

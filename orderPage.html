@@ -6,15 +6,14 @@
     <title>Discount Mart (Home)</title>
     <!--Styling sheet links-->
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/categoryMain.css" />
+    <link rel="stylesheet" href="./styles/headerFooter.css" />
+    <link rel="stylesheet" href="./styles/orderMain.css" />
     <!--javascript links-->
     <!--Icon packs-->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/headerFooter.css" />
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -115,19 +114,43 @@
           </a>
         </section>
       </section>
-      <section class="main-description">
-        <p></p>
-      </section>
-      <section id="category-container">
-        <a href="./cosmetics.html">
-          <section class="category1"></section>
-        </a>
-        <a href="./Vegetable.html">
-          <section class="category2"></section>
-        </a>
-        <a href="./diary.html">
-          <section class="category3"></section>
-        </a>
+      <section class="cart-container">
+        <h1>My Cart</h1>
+
+        <section class="cart-item">
+          <section class="cart-product">
+            <img src="./images/products/carrots.png" alt="Product 1" />
+            <section class="product-details">
+              <h2 class="product-name">Carrots</h2>
+              <p class="product-price">Rs: 200.00</p>
+              <input type="number" class="product-quantity" value="1" min="1" />
+            </section>
+          </section>
+        </section>
+
+        <section class="cart-item">
+          <section class="cart-product">
+            <img src="./images/products/cabbage.png" alt="Product 2" />
+            <section class="product-details">
+              <h2 class="product-name">Cabbage</h2>
+              <p class="product-price">Rs: 190.00</p>
+              <input type="number" class="product-quantity" value="1" min="1" />
+            </section>
+          </section>
+        </section>
+
+        <section class="cart-item">
+          <section class="cart-product">
+            <img src="./images/products/coconut.png" alt="Product 3" />
+            <section class="product-details">
+              <h2 class="product-name">Coconut</h2>
+              <p class="product-price">Rs: 90.00</p>
+              <input type="number" class="product-quantity" value="1" min="1" />
+            </section>
+          </section>
+        </section>
+
+        <a href="#" class="checkout-button">Checkout</a>
       </section>
     </main>
     <footer>
