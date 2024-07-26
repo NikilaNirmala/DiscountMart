@@ -32,37 +32,62 @@
     #mobile-menu {display: flex;}
 }
 
-.cart-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .cart-item {
-    margin-bottom: 20px;
-  }
-  .cart-product {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  .cart-product img {
-    max-width: 80px;
-    margin-right: 10px;
-  }
-  .cart-product .product-name {
-    font-weight: bold;
-  }
-  .checkout-button {
-    display: block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .checkout-button:hover {
-    background-color: #45a049;
-  }
+#cart-container {
+
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#vegetable-container,#fruit-container, #diary-container, #meat-container, #cooking-container{
+  height: 16vh;
+  width: 67vw;
+  border: 1px solid black;
+  margin-top: 1rem;
+  border-radius: 20px;
+}
+#vegetable-container,#fruit-container, #diary-container, #meat-container, #cooking-container {
+  display: flex;
+}
+
+.name {
+  height: 16vh;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.name p {
+  text-align: justify;
+}
+
+.products {
+  height: 16vh;
+  width: 400px;
+
+}
+
+#total-container {
+  display: flex;
+  justify-content: end;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: 12vw;
+  margin-top: 1rem;
+}
+
+#total-container .name {
+  width: 160px;
+}
+
+#total-item-container {
+  width: 200px;
+}
